@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "ES6",                         // যে ভার্সনের জাভাস্ক্রিপ্ট কোডে ট্রান্সপাইল করা হবে
+      "module": "commonjs",                     // মডিউল সিস্টেম যা Node.js এ ব্যবহৃত হয়
+      "esModuleInterop": true,                  // ইএস মডিউল সমর্থনের জন্য
+      "forceConsistentCasingInFileNames": true, // ফাইলের নাম সংবেদনশীলতা চেক করে
+      "skipLibCheck": true,                     // লাইব্রেরি চেকিং বাদ দেয়
+      "strict": true                            // কঠোর টাইপ চেকিং প্রয়োগ করে
+    },
+    "include": ["./**/*.ts"],                   // যে সমস্ত ফাইল কম্পাইল হবে তাদের অন্তর্ভুক্ত করে
+    "exclude": ["node_modules"]                 // `node_modules` ফোল্ডার বাদ দেয়
+  }
+  

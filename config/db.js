@@ -2,7 +2,7 @@ const config=require("./config")
 const mongoose = require("mongoose");
 const dbUrl=config.db.url
 
-mongoose.connect(dbUrl)
+mongoose.connect(dbUrl) 
 .then(()=>{
     console.log("mongodb atlas is connected")
 })
